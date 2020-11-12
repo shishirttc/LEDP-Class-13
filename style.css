@@ -1,0 +1,52 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+header{
+     background: hsl(270, 24%, 69%);
+     display: flex;
+}
+
+header img{
+     width: 20%;
+     padding-left: 100px;
+     
+}
+
+header h1{
+     font-family: tahoma;
+     margin: auto;
+     font-size: 80px;
+     color: #724100;
+     text-shadow: 3px 5px 4px;
+
+}
+
+.text-area{
+     background: #ddd;
+}
+
+.text-area div{
+     font-family: tahoma;
+     padding: 20px 30px;
+}
+
+.text-area div h1{
+     text-align: center;
+     padding-bottom: 10px;
+}
+
+.text-area div p{
+     text-align: justify;
+     font-size: 20px;
+     line-height: 30px;;
+}
+
+footer{
+     font-size: 30px;
+     background: #b09dc3;
+     text-align: center;
+     padding: 20px 0;
+}
